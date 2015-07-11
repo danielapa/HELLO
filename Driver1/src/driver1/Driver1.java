@@ -20,21 +20,33 @@ public class Driver1 {
     
     public interface RADIO {
 	
-	public void setESTADO(boolean ESTADO);
+	public void setESTADO(boolean ESTADO) {
+	{
 	
-	public boolean getEstado();
+	public boolean getEstado() {
+	}
 	
-	public int getAMFM();
+	public int getAMFM() {
+	}
 	
-	public void setAMFM(int Band);
+	public void setAMFM(int Band) {
+	}
 	
-	public void Sintonizar(boolean uD);
 	
-	public void Guardar(int Pos);
+	public void Sintonizar(boolean uD) {
+	}
 	
-	public void Memoria(int Pos);
+	public void Guardar(int Pos) {
+		
+	}
 	
-	public float getEmisora();
+	public void Memoria(int Pos) {
+		
+	}
+	
+	public float getEmisora() {
+		
+	}
 	
     }
     
