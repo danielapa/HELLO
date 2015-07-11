@@ -17,25 +17,7 @@ public class Driver1 {
         // TODO code application logic here
     }
     
-    public interface RADIO {
-	
-	public void setESTADO(boolean ESTADO);
-	
-	public boolean getEstado();
-	
-	public int getAMFM();
-	
-	public void setAMFM(int Band);
-	
-	public void Sintonizar(boolean uD);
-	
-	public void Guardar(int Pos);
-	
-	public void Memoria(int Pos);
-	
-	public float getEmisora();
-	
-    }
+    
 	
 }
     
